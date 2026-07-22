@@ -1,0 +1,43 @@
+.app-layout {
+  min-height: 100svh;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding-inline: 24px;
+}
+
+.app-content {
+  padding: 24px;
+}
+
+.feed {
+  max-width: 720px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.feed-toolbar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.notification-text p {
+  margin: 0;
+}
+
+.notification-text code {
+  background: var(--code-bg);
+  border-radius: 4px;
+  padding: 1px 6px;
+}
+
+.notification-time {
+  white-space: nowrap;
+  margin-left: 16px;
+}
