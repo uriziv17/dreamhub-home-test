@@ -22,11 +22,6 @@
 	gap: 16px;
 }
 
-.feed-toolbar {
-	display: flex;
-	justify-content: flex-start;
-}
-
 .notification-text p {
 	margin: 0;
 }

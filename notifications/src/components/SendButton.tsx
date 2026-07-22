@@ -3,7 +3,7 @@ import { EditOutlined } from "@ant-design/icons";
 import styled from "styled-components";
 
 const StyledButton = styled(Button)`
-  align-self: flex-start;
+  flex-shrink: 0;
 `;
 
 interface SendButtonProps {

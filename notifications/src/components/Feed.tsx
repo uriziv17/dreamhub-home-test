@@ -43,14 +43,12 @@ export function Feed({ notifications, sendMessage }: FeedProps) {
 
 	return (
 		<div className="feed">
-			<div className="feed-toolbar">
-				<SendButton onClick={() => setDialogOpen(true)} />
-			</div>
 			<NotificationFilter
 				activeTypes={activeTypes}
 				onToggleType={toggleType}
 				search={search}
 				onSearchChange={setSearch}
+				action={<SendButton onClick={() => setDialogOpen(true)} />}
 			/>
 			<NotificationList
 				notifications={filtered}
