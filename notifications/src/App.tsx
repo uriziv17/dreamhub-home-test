@@ -6,14 +6,10 @@ import "./App.css";
 
 function AppContent() {
 	const { notifications, status, sendMessage } = useNotifications();
-	const { token } = theme.useToken();
 
 	return (
 		<Layout className="app-layout">
-			<Layout.Header
-				className="app-header"
-				style={{ background: token.colorPrimary }}
-			>
+			<Layout.Header className="app-header">
 				<Typography.Title level={3} style={{ margin: 0, color: "#ffffff" }}>
 					Live Notifications
 				</Typography.Title>
