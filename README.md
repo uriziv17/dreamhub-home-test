@@ -19,6 +19,12 @@ npm install
 
 The app needs two processes running at the same time: the WebSocket server and the Vite dev server.
 
+### 0. move to the notifications app folder
+
+```bash
+cd ./notifications
+```
+
 ### 1. Start the server
 
 The server (`server.js`) runs a WebSocket server on port **8080** and pushes a random notification every 2 seconds to each connected client.
